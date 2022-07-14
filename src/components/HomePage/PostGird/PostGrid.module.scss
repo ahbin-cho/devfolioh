@@ -1,0 +1,15 @@
+.post-grid {
+  display: flex;
+  margin-top: 2rem;
+
+  .scroll-container {
+    flex: 1 1 0%;
+    display: block;
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -1rem;
+    }
+  }
+}

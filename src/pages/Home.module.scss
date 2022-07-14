@@ -1,0 +1,44 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.home {
+  background-color: #f8f9fa;
+  height: 100%;
+
+  * {
+    box-sizing: inherit;
+  }
+
+  .list {
+    .post-list {
+      width: 1728px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 1919px) {
+      .post-list {
+        width: 1376px;
+      }
+    }
+
+    @media (max-width: 1440px) {
+      .post-list {
+        width: 1024px;
+      }
+    }
+
+    @media (max-width: 1056px) {
+      .post-list {
+        width: calc(100% - 2rem);
+      }
+    }
+  }
+}

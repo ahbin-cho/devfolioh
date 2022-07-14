@@ -1,0 +1,19 @@
+.preview__container {
+  min-width: 0px;
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: rgb(241, 243, 245);
+  overflow-y: scroll;
+
+  .preview__header {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .preview__body {
+    margin-top: 2rem;
+    white-space: pre-wrap;
+  }
+}

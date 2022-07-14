@@ -1,0 +1,182 @@
+.post-detail-div {
+    width: 768px;
+    margin: 5rem auto 0px;
+
+
+    .post-btn {
+        display: inline-flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        padding: 0px 1.25rem;
+        height: 2rem;
+        font-size: 1rem;
+        background-color: lightgray;
+    }
+
+    .post-title-h1 {
+        font-size: 3rem;
+        line-height: 1.5;
+        letter-spacing: -0.004em;
+        margin-top: 0px;
+        font-weight: 800;
+        color: rgb(52, 58, 64);
+        margin-bottom: 2rem;
+        word-break: keep-all;
+    }
+    .post-info {
+        -webkit-box-align: center;
+        align-items: center;
+        font-size: 1rem;
+        color: rgb(73, 80, 87);
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+
+    .scroll-bar {
+        position: relative;
+        
+        .wing-banner {
+            position: fixed;
+            left: 7rem;
+            .share-icon {
+                height: 2.5rem;
+                width: 2.5rem;
+                border-radius: 50%;
+                box-shadow: inset 0px 0px 8px;
+            }
+        }
+        
+    }
+
+    .post-tags {
+        margin-top: 0.875rem;
+        margin-bottom: -0.875rem;
+        min-height: 0.875rem;
+
+        .post-tag-a {
+            margin-bottom: 0.875rem;
+            background: rgb(241, 243, 245);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            height: 2rem;
+            border-radius: 1rem;
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            margin-right: 0.875rem;
+            color: rgb(12, 166, 120);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+           
+        }
+        .post-tag-a:hover {
+            background: rgb(248, 249, 250);
+        }
+    }
+
+    .post-body-div {
+        margin-top: 2rem;
+        
+        .post-thumbnail {
+            max-height: 100vh;
+            max-width: 100%;
+            width: auto;
+            margin: 2rem auto 0px;
+            height: auto;
+            object-fit: contain;
+            display: block;
+        }
+
+        .post-content-div {
+            width: 768px;
+            line-height: 1.7;
+            margin: 5rem auto 0px;
+        }
+    }
+
+    .post-detail-btns {
+        text-align: right;
+        button+button {
+            margin-left: 5px;
+        }
+    }
+
+    .post-comment-div {
+        margin-top: 2rem;
+        color: rgb(52, 58, 64);
+
+        h4 {
+            font-size: 1.125rem;
+            line-height: 1.5;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .comment-textarea {
+            resize: none;
+            padding: 1rem 1rem 1.5rem;
+            outline: none;
+            border: 1px solid rgb(233, 236, 239);
+            margin-bottom: 1.5rem;
+            width: 100%;
+            border-radius: 4px;
+            min-height: 6.125rem;
+            font-size: 1rem;
+            color: rgb(33, 37, 41);
+            line-height: 1.75;
+        }
+
+        .btn-comment-div {
+            display: flex;
+            -webkit-box-pack: end;
+            justify-content: flex-end;
+            .btn-comment-submit {
+                background: rgb(18, 184, 134);
+            }
+        }
+        .comments-div {
+            margin-top: 2.5rem;
+            .comment-div {
+                border-top: 1px solid rgb(226, 226, 226);
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+                .comment-icons {
+                    font-size: 30px;
+                    margin: 5px;
+                }
+                .comment-created-date {
+                    color: darkgray;
+                    float: right;
+                    font-size: smaller;
+                    text-align: right;
+                }
+                .comment-body {
+                    padding-left: 6px;
+                }
+                .comment-btns {
+                    text-align: right;
+                    button {
+                        border: none;
+                        font-size: 10px;
+                        color: darkgray;
+                        padding: 3px 7px;
+                        border-radius: 3px; 
+                    }
+                    button+button {
+                        margin-left:3px
+                    }
+                }
+            }
+        }
+    }
+    
+}
